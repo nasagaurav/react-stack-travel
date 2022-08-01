@@ -78,4 +78,9 @@ export const users = [
   },
 ];
 export const bookings = [];
-export const flights = [];
+export const flights = [
+  { id: 1, source: 'us', destination: 'uk', time: '1 hours', stops: 3 },
+  { id: 2, source: 'bomaby', destination: 'goa', time: '3 hours', stops: 11 },
+  { id: 3, source: 'delhi', destination: 'bombay', time: '5 hours', stops: 20 },
+  { id: 4, source: 'patna', destination: 'kanpur', time: '1 hours', stops: 2 },
+];
