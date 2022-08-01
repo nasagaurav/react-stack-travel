@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 function Admin() {
-  const state = useSelector((s = s));
+  const state = useSelector((s => s));
   const dispatch = useDispatch();
   return (
     <div>
