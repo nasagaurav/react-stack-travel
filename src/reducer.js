@@ -1,7 +1,8 @@
+import { users, bookings, flights } from './data';
 const intialState = {
-  users: [],
-  bookings: [],
-  flights: [],
+  users: users,
+  bookings: bookings,
+  flights: flights,
   role: '',
   loggedin: false,
   user: null,
